@@ -1,4 +1,4 @@
-/* CSCI 4018 Final Project - Personal Resume Website */
+/* CSCI 4018 Final Project - Cesar Abanto Personal Resume Website */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -6,7 +6,20 @@ body {
     line-height: 1.6;
 }
 
+.content {
+    max-width: 950px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.70);
+}
+
 h1 {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+h2 {
     text-align: center;
 }
 
@@ -14,10 +27,14 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 450px;
+    max-width: 500px;
     width: 80%;
-    border-radius: 12px;
-    border: 2px solid #333;
+    border-radius: 14px;
+    border: 3px solid #333;
+}
+
+p {
+    font-size: 1.05em;
 }
 
 nav {
@@ -28,21 +45,22 @@ nav {
 nav a {
     display: inline-block;
     margin: 8px;
-    padding: 10px 14px;
-    background-color: #333;
+    padding: 10px 16px;
+    background-color: #1f2937;
     color: white;
     text-decoration: none;
     border-radius: 6px;
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #374151;
 }
 
 table {
     margin: 20px auto;
     border-collapse: collapse;
-    width: 85%;
+    width: 95%;
+    background-color: white;
 }
 
 th, td {
@@ -51,27 +69,31 @@ th, td {
     text-align: left;
 }
 
+th {
+    background-color: #e5e7eb;
+}
+
+ul {
+    max-width: 800px;
+    margin: auto;
+}
+
 .index-page {
-    color: #102a43;
-    background-color: #e6f2ff;
+    color: #0f2742;
+    background-color: #dceeff;
 }
 
 .skills-page {
-    color: #2f1b0c;
-    background-color: #fff3e6;
+    color: #3b240f;
+    background-color: #fff0dc;
 }
 
 .goals-page {
-    color: #083b2d;
-    background-color: #e8fff3;
+    color: #0b3d2e;
+    background-color: #ddfbe8;
 }
 
 .professional-page {
     color: #3b0a45;
-    background-color: #f8e8ff;
-}
-
-.content {
-    max-width: 900px;
-    margin: auto;
+    background-color: #f6e0ff;
 }
